@@ -2,8 +2,8 @@
 
 ## Members
 - JAIDEV DAS IIT2019197
-- NISCHAY NAGAR IIT2019196
-- PRIYANSHU P IIT2019198
+- NISCHAY NAGAR IIT2019198
+- PRIYANSHU P IIT2019196
 
 ## Problem Statement
 Given an array representing n positions along a straight line. Find k(where k <= n) elements from the array such that the minimum distance between any two (consecutive points among the k points) is maximized. 
