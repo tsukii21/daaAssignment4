@@ -55,8 +55,8 @@ findPoints(arr,k,mid):
 			points.append(curr)
 			count = count + 1
 			if count = k:
-return points	
-	
+     				return points
+				
 	return False
 
 ```
