@@ -10,13 +10,13 @@ Given an array representing n positions along a straight line. Find k(where k <=
 
 
 ## Algorithm
-1.First sort given array in ascending order
-2.Take minDist = -1
-3.Take left = 0 and right = maximum distance between elements + 1
-4.Find midpoint of(left + right) (let’s call it mid)
-5.Check if k elements can be placed with minimum distance between any two consecutive elements equal to mid.If this is true , update left to mid + 1 and midDist to mid, store the k elements, and repeat from step 4.Else, update right to mid and repeat from step 4.
-6.Keep repeating above steps while left is less than right
-7.When above condition fails , return minDist and the stored k elements 
+1. First sort given array in ascending order
+2. Take minDist = -1
+3. Take left = 0 and right = maximum distance between elements + 1
+4. Find midpoint of(left + right) (let’s call it mid)
+5. Check if k elements can be placed with minimum distance between any two consecutive elements equal to mid.If this is true , update left to mid + 1 and midDist to mid, store the k elements, and repeat from step 4.Else, update right to mid and repeat from step 4.
+6. Keep repeating above steps while left is less than right
+7. When above condition fails , return minDist and the stored k elements 
 
 
 
@@ -75,3 +75,7 @@ Inside this loop, there’s a call to another function which employs a loop whic
 
 So T(n) = (n-1)log(d) = O(nlgd)
 Where d is the maximum distance between given elements.
+
+
+## Space Complexity
+O(n) as we are making an array of n elements
